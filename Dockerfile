@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy files
 COPY requirements.txt ./
-COPY app.py ./
+COPY main.py ./
 
 # Install dependencies
 RUN pip install --upgrade pip && \
@@ -16,4 +16,4 @@ RUN pip install --upgrade pip && \
 EXPOSE 8080
 
 # Run the app
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
