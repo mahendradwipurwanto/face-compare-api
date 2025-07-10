@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Docker
+*.log
+docker-compose.override.yml
+# Ignore any docker volumes or local mounts
+volume_data/
+tmp/
+temp/
+cache/
+
+# Flask instance folder
+instance/
+
+# DeepFace model cache (if any downloaded locally)
+.dlib/
+deepface/weights/
+
+# Temporary image files
+/tmp/
+*.jpg
+*.jpeg
+*.png
+
+# System files
+Thumbs.db

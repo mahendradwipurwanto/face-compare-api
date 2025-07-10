@@ -1,0 +1,6 @@
+Flask
+deepface
+opencv-python-headless
+tensorflow
+keras
+requests
