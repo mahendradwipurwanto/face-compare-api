@@ -14,6 +14,9 @@ build/
 # macOS
 .DS_Store
 
+# jetbrains
+.idea
+
 # VSCode
 .vscode/
 *.code-workspace
