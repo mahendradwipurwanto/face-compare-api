@@ -18,6 +18,7 @@ A lightweight Flask API to compare two faces using [DeepFace](https://github.com
 ```bash
 git clone https://github.com/mahendradwipurwanto/face-compare-api.git
 cd face-compare-api
+```
 
 ### 2. Install dependencies
 
