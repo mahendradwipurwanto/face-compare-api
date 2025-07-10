@@ -3,4 +3,5 @@ deepface
 opencv-python-headless
 tensorflow
 keras
+tf_keras
 requests
